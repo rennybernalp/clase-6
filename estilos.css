@@ -1,0 +1,77 @@
+/* Estilos generales */
+*{
+    margin: 0; padding: 0;
+}
+ul{
+    background-color: pink;
+    height: 200px;
+}
+ul li{
+    background-color: gray;
+    color: azure;
+    margin: 5px;
+    padding: 5px;
+    flex-basis: 100px;/*  width-height */
+    text-align: center ;
+    text-decoration: none;
+    list-style-type: none;
+}
+aside{
+    background-color: aquamarine;
+    width: 20%;
+    height: 70vh;
+    float: left;
+}
+p{
+   
+    border: solid 1px black;
+    height: 50px;
+}
+main{
+    width: 65%
+}
+div{
+    background-color: orangered;
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    color: pink;
+    text-align: center;
+}
+/* Flexbox 
+.header-flex{
+    display: flex;    
+}
+*/
+.menu-flex{
+    display: flex;
+    /* flex-direction: row; */
+  /*   flex-wrap: nowrap; */
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center ;
+}
+.aside-flex{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items:flex-start;
+    align-content: flex-end;
+}
+.main-flex{
+display: flex;
+flex-flow: row wrap ;
+}
+.footer-flex{
+}
+.hijo-flex-destacado{
+    order: -1;
+    border: solid 10px; color: pink;
+    width: 100%;
+}
